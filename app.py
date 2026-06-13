@@ -848,7 +848,7 @@ def compute_ap(resonance, seo_score, n_subtasks):
 
 
 STAGES = [
-    ("LAYER 01", "DWSA Decomposer - Divisible Work sharing orchestration",   "Breaks task into 4–6 atomic subtasks"),
+    ("LAYER 01", "DWSA Decomposer - Divisible Work sharing agentic orchestration",   "Breaks task into 4–6 atomic subtasks"),
     ("LAYER 02", "Quantum Router",     "Qiskit circuit determines execution order"),
     ("LAYER 03", "Agent Swarm",        "N specialist agents run in quantum order"),
     ("LAYER 04", "Brain Synthesis",    "Synthesiser unifies complete memory"),
