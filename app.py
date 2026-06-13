@@ -511,7 +511,7 @@ for key, val in {
 
 
 with st.sidebar:
-    st.markdown('<div class="sidebar-logo">🌸 Axon</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-logo">🌸 Axon - Nexus</div>', unsafe_allow_html=True)
     st.markdown('<div class="sidebar-sub">Multi-Agentic Infrastructure · Quantum OS · 2026</div>', unsafe_allow_html=True)
     st.markdown('<div class="sidebar-jp">星の量子知性システム · 東京</div>', unsafe_allow_html=True)
 
