@@ -1021,11 +1021,11 @@ elif page == "workflow":
       <div style="font-size:1.7rem;font-weight:900;letter-spacing:-0.04em;
                   background:linear-gradient(135deg,#c084fc 0%,#f0abfc 50%,#a78bfa 100%);
                   -webkit-background-clip:text;-webkit-text-fill-color:transparent;">
-        🌸 Hoshi · Quantum Workflow Engine
+        🌸 Axon· Multi - Agentic Infrastructure
       </div>
       <div style="font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:#334155;
                   letter-spacing:0.16em;text-transform:uppercase;margin-top:0.1rem;">
-        DWSA · Quantum Routing · Agent Swarm · Brain Synthesis · Critic · SEO
+        DWSA · Quantum Routing · Agent Swarm · Brain Synthesis · Critic · SEO · Multi - Agent
       </div>
       <div style="font-family:'Noto Sans JP',sans-serif;font-size:0.63rem;
                   color:rgba(249,168,212,0.3);letter-spacing:0.25em;margin-top:0.08rem;">
