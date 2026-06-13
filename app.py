@@ -96,6 +96,18 @@ html, body, [class*="css"] {
     color: #e2e8f0;
 }
 #MainMenu, footer, header { visibility: hidden; }
+[data-testid="collapsedControl"] {
+    visibility: visible !important;
+    display: flex !important;
+    position: fixed !important;
+    top: 0.6rem !important;
+    left: 0.6rem !important;
+    z-index: 999999 !important;
+    color: #c084fc !important;
+    background: rgba(10,5,30,0.85) !important;
+    border: 1px solid rgba(168,85,247,0.3) !important;
+    border-radius: 8px !important;
+}
 .block-container { padding: 1.2rem 2rem 4rem; max-width: 1200px; margin: auto; }
 
 [data-testid="stSidebar"] {
@@ -511,7 +523,7 @@ for key, val in {
 
 
 with st.sidebar:
-    st.markdown('<div class="sidebar-logo">🌸 Axon - Nexus</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sidebar-logo">🌸 Axon</div>', unsafe_allow_html=True)
     st.markdown('<div class="sidebar-sub">Multi-Agentic Infrastructure · Quantum OS · 2026</div>', unsafe_allow_html=True)
     st.markdown('<div class="sidebar-jp">星の量子知性システム · 東京</div>', unsafe_allow_html=True)
 
