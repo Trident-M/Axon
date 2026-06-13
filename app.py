@@ -95,19 +95,17 @@ html, body, [class*="css"] {
     background: var(--midnight);
     color: #e2e8f0;
 }
-#MainMenu, footer, header { visibility: hidden; }
-[data-testid="collapsedControl"] {
-    visibility: visible !important;
-    display: flex !important;
-    position: fixed !important;
-    top: 0.6rem !important;
-    left: 0.6rem !important;
-    z-index: 999999 !important;
-    color: #c084fc !important;
-    background: rgba(10,5,30,0.85) !important;
-    border: 1px solid rgba(168,85,247,0.3) !important;
-    border-radius: 8px !important;
+#MainMenu, footer { visibility: hidden; }
+header[data-testid="stHeader"] {
+    background: transparent !important;
+    height: 2.8rem !important;
 }
+header[data-testid="stHeader"] > div { background: transparent !important; }
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+}
+[data-testid="collapsedControl"] svg { color: #c084fc !important; }
 .block-container { padding: 1.2rem 2rem 4rem; max-width: 1200px; margin: auto; }
 
 [data-testid="stSidebar"] {
