@@ -1086,7 +1086,7 @@ elif page == "workflow":
         stage_states[0] = "active"
         with status_ph.container(): render_stages(stage_states)
         with sphere_ph.container(): render_quantum_sphere("thinking", 0, "DECOMPOSING TASK")
-        st.markdown('<div class="sec-head">Stage 1 · DWSA Decomposer</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-head">Stage 1 · DWSA Decomposer - Divisible work sharing Agentic orchestration</div>', unsafe_allow_html=True)
         with st.spinner("DWSA agent decomposing task…"):
             subtasks = stage_dwsa(keys, task)
         stage_states[0] = "done"
