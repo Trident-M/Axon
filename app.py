@@ -22,7 +22,8 @@ DEFAULT_API_KEYS = list(st.secrets.get("api_keys", {}).values())
 BUILDER = {
     "initials": "S",
     "name":     "Ashwanth Sankar",
-    "role":     "𝑰 𝒂𝒎 𝑨𝒔𝒉𝒘𝒂𝒏𝒕𝒉 𝑺𝒂𝒏𝒌𝒂𝒓, 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 7𝒕𝒉 𝒔𝒕𝒂𝒏𝒅𝒂𝒓𝒅. 𝑰’𝒎 𝒂 𝒑𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒃𝒖𝒊𝒍𝒅𝒆𝒓 𝒂𝒏𝒅 𝒑𝒓𝒐𝒃𝒍𝒆𝒎-𝒔𝒐𝒍𝒗𝒆𝒓 𝒘𝒊𝒕𝒉 𝒂 𝒔𝒕𝒓𝒐𝒏𝒈 𝒊𝒏𝒕𝒆𝒓𝒆𝒔𝒕 𝒊𝒏 𝑨𝒓𝒕𝒊𝒇𝒊𝒄𝒊𝒂𝒍 𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆 𝒂𝒏𝒅 𝑺𝒆𝒄𝒖𝒓𝒊𝒕𝒚. 𝑰 𝒆𝒏𝒋𝒐𝒚 𝒄𝒓𝒆𝒂𝒕𝒊𝒏𝒈 𝒑𝒓𝒂𝒄𝒕𝒊𝒄𝒂𝒍 𝒔𝒐𝒍𝒖𝒕𝒊𝒐𝒏𝒔, 𝒍𝒆𝒂𝒓𝒏𝒊𝒏𝒈 𝒏𝒆𝒘 𝒕𝒆𝒄𝒉𝒏𝒐𝒍𝒐𝒈𝒊𝒆𝒔 𝒒𝒖𝒊𝒄𝒌𝒍𝒚, 𝒂𝒏𝒅 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒘𝒊𝒕𝒉 𝒕𝒆𝒂𝒎𝒔 𝒕𝒐 𝒕𝒖𝒓𝒏 𝒊𝒅𝒆𝒂𝒔 𝒊𝒏𝒕𝒐 𝒊𝒎𝒑𝒂𝒄𝒕𝒇𝒖𝒍 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔. 𝑨𝒍𝒘𝒂𝒚𝒔 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒊𝒏𝒏𝒐𝒗𝒂𝒕𝒆, 𝒄𝒐𝒍𝒍𝒂𝒃𝒐𝒓𝒂𝒕𝒆, 𝒂𝒏𝒅 𝒕𝒂𝒌𝒆 𝒐𝒏 𝒏𝒆𝒘 𝒄𝒉𝒂𝒍𝒍𝒆𝒏𝒈𝒆𝒔. 🚀",
+    "role": "𝑰 𝒂𝒎 𝑨𝒔𝒉𝒘𝒂𝒏𝒕𝒉 𝑺𝒂𝒏𝒌𝒂𝒓, 𝒔𝒕𝒖𝒅𝒚𝒊𝒏𝒈 7𝒕𝒉 𝒔𝒕𝒂𝒏𝒅𝒂𝒓𝒅. 𝑰’𝒎 𝒂 𝒑𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒃𝒖𝒊𝒍𝒅𝒆𝒓 𝒂𝒏𝒅 𝒑𝒓𝒐𝒃𝒍𝒆𝒎-𝒔𝒐𝒍𝒗𝒆𝒓 𝒘𝒊𝒕𝒉 𝒂 𝒔𝒕𝒓𝒐𝒏𝒈 𝒊𝒏𝒕𝒆𝒓𝒆𝒔𝒕 𝒊𝒏 𝑨𝒓𝒕𝒊𝒇𝒊𝒄𝒊𝒂𝒍 𝑰𝒏𝒕𝒆𝒍𝒍𝒊𝒈𝒆𝒏𝒄𝒆 𝒂𝒏𝒅 𝑺𝒆𝒄𝒖𝒓𝒊𝒕𝒚. 𝑰 𝒆𝒏𝒋𝒐𝒚 𝒄𝒓𝒆𝒂𝒕𝒊𝒏𝒈 𝒑𝒓𝒂𝒄𝒕𝒊𝒄𝒂𝒍 𝒔𝒐𝒍𝒖𝒕𝒊𝒐𝒏𝒔, 𝒍𝒆𝒂𝒓𝒏𝒊𝒏𝒈 𝒏𝒆𝒘 𝒕𝒆𝒄𝒉𝒏𝒐𝒍𝒐𝒈𝒊𝒆𝒔 𝒒𝒖𝒊𝒄𝒌𝒍𝒚, 𝒂𝒏𝒅 𝒘𝒐𝒓𝒌𝒊𝒏𝒈 𝒘𝒊𝒕𝒉 𝒕𝒆𝒂𝒎𝒔 𝒕𝒐 𝒕𝒖𝒓𝒏 𝒊𝒅𝒆𝒂𝒔 𝒊𝒏𝒕𝒐 𝒊𝒎𝒑𝒂𝒄𝒕𝒇𝒖𝒍 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔. 𝑨𝒍𝒘𝒂𝒚𝒔 𝒓𝒆𝒂𝒅𝒚 𝒕𝒐 𝒊𝒏𝒏𝒐𝒗𝒂𝒕𝒆, 𝒄𝒐𝒍𝒍𝒂𝒃𝒐𝒓𝒂𝒕𝒆, 𝒂𝒏𝒅 𝒕𝒂𝒌𝒆 𝒐𝒏 𝒏𝒆𝒘 𝒄𝒉𝒂𝒍𝒍𝒆𝒏𝒈𝒆𝒔. 🚀",
+    "role-info": "Lead Architect & System Engineer. Specializing in autonomous multi-agent orchestration, quantum-inspired heuristic routing, and production-grade LLM infrastructure pipelines.",
     "email":    "ashwanthsankar2k@gmail.com",
     "portfolio": "https://ashwanth.online/",
     "location": "Tamilnadu, India",
